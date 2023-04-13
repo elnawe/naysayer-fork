@@ -29,6 +29,7 @@
 (defcustom naysayer-theme-violet "#AE81FF" "Primary colors - violet" :type 'string :group 'monokai)
 
 (let ((background "#062329")
+      (background-dark "#031518")
       (gutters    "#062329")
       (gutter-fg  "#062329")
       (gutters-active "#062329")
@@ -122,7 +123,7 @@
    `(mode-line-inactive ((t (:inverse-video unspecified
                                             :underline unspecified
                                             :foreground ,text
-                                            :background ,background
+                                            :background ,background-dark
                                             :box nil))))
    `(powerline-inactive1 ((t (:background ,background :foreground ,text))))
    `(powerline-inactive2 ((t (:background ,background :foreground ,text))))
