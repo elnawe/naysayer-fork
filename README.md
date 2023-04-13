@@ -1,5 +1,7 @@
 # naysayer-theme.el
 
+**NOTE: This is a fork of naysayer-theme.el from https://github.com/nickav/naysayer-theme.el
+
 [![MELPA](http://melpa.org/packages/naysayer-theme-badge.svg)](http://melpa.org/#/naysayer-theme)
 
 ### _Emacs theme inspired by Jonathan Blow's compiler livestreams_
