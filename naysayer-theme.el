@@ -129,7 +129,7 @@
    `(powerline-inactive2 ((t (:background ,background :foreground ,text))))
 
    ;; js2-mode
-   `(js2-function-call ((t (:inherit (font-lock-function-name-face)))))
+   `(js2-function-call ((t (:foreground ,text))))
    `(js2-function-param ((t (:foreground ,text))))
    `(js2-jsdoc-tag ((t (:foreground ,keywords))))
    `(js2-jsdoc-type ((t (:foreground ,constants))))
@@ -138,6 +138,8 @@
    `(js2-external-variable ((t (:foreground ,constants))))
    `(js2-error ((t (:foreground ,error))))
    `(js2-warning ((t (:foreground ,warning))))
+   `(rjsx-tag ((t (:foreground ,text))))
+   `(rjsx-attr ((t (:foreground ,text))))
 
    ;; highlight numbers
    `(highlight-numbers-number ((t (:foreground ,numbers))))
